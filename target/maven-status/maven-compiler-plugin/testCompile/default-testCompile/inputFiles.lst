@@ -1,1 +1,13 @@
-/Users/LarionovaA/Desktop/projects/fck-autotests/src/test/java/com/example/demo/DemoApplicationTests.java
+C:\Users\alex8\OneDrive\Desktop\projects\Playwright java\Java_Playwright_autotests\src\test\java\autotest\Application.java
+C:\Users\alex8\OneDrive\Desktop\projects\Playwright java\Java_Playwright_autotests\src\test\java\autotest\config\CucumberSpringConfiguration.java
+C:\Users\alex8\OneDrive\Desktop\projects\Playwright java\Java_Playwright_autotests\src\test\java\autotest\config\PlaywrightConfig.java
+C:\Users\alex8\OneDrive\Desktop\projects\Playwright java\Java_Playwright_autotests\src\test\java\autotest\locators\Locators.java
+C:\Users\alex8\OneDrive\Desktop\projects\Playwright java\Java_Playwright_autotests\src\test\java\autotest\pages\PageObject.java
+C:\Users\alex8\OneDrive\Desktop\projects\Playwright java\Java_Playwright_autotests\src\test\java\autotest\RunCucumberTest.java
+C:\Users\alex8\OneDrive\Desktop\projects\Playwright java\Java_Playwright_autotests\src\test\java\autotest\steps\CatalogItemsTest.java
+C:\Users\alex8\OneDrive\Desktop\projects\Playwright java\Java_Playwright_autotests\src\test\java\autotest\steps\FooterTest.java
+C:\Users\alex8\OneDrive\Desktop\projects\Playwright java\Java_Playwright_autotests\src\test\java\autotest\steps\H1Test.java
+C:\Users\alex8\OneDrive\Desktop\projects\Playwright java\Java_Playwright_autotests\src\test\java\autotest\steps\LogoTest.java
+C:\Users\alex8\OneDrive\Desktop\projects\Playwright java\Java_Playwright_autotests\src\test\java\autotest\steps\NavigationMenuTest.java
+C:\Users\alex8\OneDrive\Desktop\projects\Playwright java\Java_Playwright_autotests\src\test\java\autotest\steps\TitleAndCartTest.java
+C:\Users\alex8\OneDrive\Desktop\projects\Playwright java\Java_Playwright_autotests\src\test\java\autotest\steps\ViewAllButtonTest.java

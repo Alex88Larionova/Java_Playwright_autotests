@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run All Tests",
+      "request": "launch",
+      "mainClass": "org.junit.platform.console.ConsoleLauncher",
+      "args": ["--select-class", "autotest.steps.CatalogItemsTest"] // Замените на ваш класс тестов
+    }
+  ]
+}

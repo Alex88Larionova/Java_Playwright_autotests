@@ -1,1 +1,13 @@
-com/example/demo/DemoApplicationTests.class
+autotest\steps\H1Test.class
+autotest\steps\ViewAllButtonTest.class
+autotest\config\PlaywrightConfig.class
+autotest\config\CucumberSpringConfiguration.class
+autotest\RunCucumberTest.class
+autotest\pages\PageObject.class
+autotest\Application.class
+autotest\steps\FooterTest.class
+autotest\steps\LogoTest.class
+autotest\steps\CatalogItemsTest.class
+autotest\steps\NavigationMenuTest.class
+autotest\locators\Locators.class
+autotest\steps\TitleAndCartTest.class

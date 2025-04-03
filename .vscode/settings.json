@@ -1,0 +1,17 @@
+{
+  "java.test.config": {
+    "name": "Cucumber Tests",
+    "workingDirectory": "${workspaceFolder}",
+    "args": [
+      "--glue",
+      "autotest.steps",
+      "--plugin",
+      "pretty",
+      "--plugin",
+      "html:target/cucumber-reports",
+      "--tags",
+      "@regression"
+    ]
+  },
+  "java.compile.nullAnalysis.mode": "automatic"
+}

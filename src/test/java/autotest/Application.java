@@ -1,7 +1,7 @@
-package test.java.autotest;
+package autotest;
 
-import org.spingframework.boot.SpringApplication;
-import org.spingframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class Application {

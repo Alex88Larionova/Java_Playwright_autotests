@@ -1,8 +1,9 @@
-package test.java.autotest;
+package autotest;
 
 import io.cucumber.junit.platform.engine.Cucumber;
 
-@Cucumber // указывает на то, что это тестовый класс Cucumber
+@Cucumber // Используйте только эту аннотацию
 public class RunCucumberTest {
-    
-} // не сожержит методов, потому что @Cucumber берет на себя задачу запуска тестов
+    // Класс остается пустым
+}
+// Аннотация @Cucumber автоматически находит файлы .feature и реализации шагов

@@ -10,47 +10,44 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.Assert;
 import org.springframework.beans.factory.annotation.Autowired;
+
+import com.microsoft.playwright.Playwright;
+
 import autotest.locators.Locators;
 
-public class LogoTest {
+public class ViewAllButtonTest {
     private final PageObject pageObject;
     private final PlaywrightConfig playwrightConfig;
 
     @Autowired
-    public LogoTest(PageObject pageObject, PlaywrightConfig playwrightConfig) {
+    public ViewAllButtonTest(PageObject pageObject, PlaywrightConfig playwrightConfig) {
         this.pageObject = pageObject;
         this.playwrightConfig = playwrightConfig;
     }
 
-    @Given ("I open the Playwright logo page")
-    public void iOpenThePlaywrightLogoPage() {
+    @Given ("I open the Playwright all button page")
+    public void iOpenThePlaywrightAllButtonPage() {
         pageObject
-        .getPage()
-        .navigate(playwrightConfig
-                .getTestPageUrl());
+                .getPage()
+                .navigate(playwrightConfig.getTestPageUrl());
     }
 
-    @When ("I check for the logo")
-    public void iCheckForTheLogo() {
-        boolean logoExists = pageObject
-        .getPage()
-        .locator(Locators.LOGO_SELECTOR)
-        .count() > 0;
-
-        assertTrue (logoExists, "Логотип должен присутствовать на странице");
+    @When ("I check the View all button")
+    public void iCheckTheViewAllButton() {
+        pageObject
+    .getPage()
+    .locator(Locators.VIEW_ALL_BUTTON_SELECTOR)
+    .click();
     }
 
-    @Then ("I verify the logo is displayed")
-    public void iVerifyTheLogoIsDisplayed() {
-        boolean logoIsVisible = pageObject
+    @Then ("I verify the View all button redirects")
+    public void iVerifyTheViewAllButtonRedirects() {
+        String currentUrl = pageObject
         .getPage()
-        .locator(Locators.LOGO_SELECTOR)
-        .isVisible();
+        .url();
 
-        assertTrue(logoIsVisible, "Логотип должен быть виден");
-
+        assertTrue(currentUrl.contains("/vue-app/index.html#/"));
     }
-
 }
 
 // Мы создали конструктор, который принимает два параметра PageObject и
